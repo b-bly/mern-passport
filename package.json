@@ -31,7 +31,8 @@
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
 		"dev": "concurrently \"react-scripts start\" \"nodemon server/server.js\"",
-		"prod": "export NODE_ENV=\"production\" && nodemon server/server.js"
+		"prod": "export NODE_ENV=\"production\" && nodemon server/server.js",
+		"react": "\"react-scripts start\""
 	},
 	"proxy": "http://localhost:8080"
 }
